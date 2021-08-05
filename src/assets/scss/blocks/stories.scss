@@ -1,0 +1,11 @@
+.stories {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 13px;
+    grid-template-rows: 195px;
+}
+
+.stories__item {
+    border-radius: 5px;
+    overflow: hidden;
+}
