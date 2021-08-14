@@ -8,6 +8,7 @@
   &:hover {
     .nav__link {
       background-color: $blue;
+      text-decoration: none;
     }
     > .subnav {
       display: block;
@@ -27,6 +28,7 @@
 
   &:hover {
     background-color: $blue;
+    text-decoration: none;
   }
 
   &.has-subnav {

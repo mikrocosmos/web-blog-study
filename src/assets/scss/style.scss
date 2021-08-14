@@ -13,6 +13,15 @@ body {
     line-height: 1.5;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -36,3 +45,5 @@ body {
 @import "blocks/post";
 @import "blocks/embed";
 @import "blocks/pagination";
+@import "blocks/related";
+@import "blocks/comments";
