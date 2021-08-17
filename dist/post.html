@@ -149,7 +149,7 @@
                     </p>
                 </div><!--/.post-text-->
                 <div class="related">
-                    <h3 class="related__title">Интересно почитать</h3>
+                    <h3 class="post__subtitle">Интересно почитать</h3>
                     <ul class="related__list">
                         <li class="related__list-item">
                             <h4 class="related__list-title">
@@ -171,13 +171,48 @@
                     </ul>
                 </div><!--/.related-->
                 <div class="comments">
-                    <h3 class="comments__title">Обсуждение</h3>
+                    <h3 class="post__subtitle">Обсуждение</h3>
                     <form class="form" action="/" method="POST">
                         <div class="form__group">
-                            <textarea class="form__control" name="comment-text" placeholder="Текст комментария"></textarea>
+                            <textarea class="form__control form__control--textarea" name="comment-text" placeholder="Текст комментария"></textarea>
+                            <span class="form__line"></span>
                         </div>
-                    <button class="btn btn--blue">Отправить</button>
+                    <button class="btn btn--blue btn--rounded btn --sm">Отправить</button>
                 </form>
+            
+                <ul class="comments">
+                    <li class="comments__item">
+                        <div class="comments__header">
+                                <img class="comments__avatar" src="http://placehold.it/30" alt="">
+                                <div class="comments__autor">
+                                <div class="comments__name">Дмитрий Валак</div>
+                                <time class="comments__pubdate" datetime="2021-08-10 12:34">1 неделю назад</time>
+                            </div>
+                        </div>
+                            <div class="comments__text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere obcaecati provident ex. Incidunt facere perspiciatis asperiores fuga praesentium dolor totam, culpa cupiditate ab saepe eaque, consequatur eligendi? Officia vel ab reiciendis numquam voluptatum quia aperiam debitis molestiae quae ipsam fuga similique, dolores reprehenderit. Unde ut ipsam cumque, obcaecati odio mollitia.
+                            </div>
+                            <button class="comments__reply" type="button">ответить</button>
+                        </div>
+                        <ul class="comments">
+                            <li class="comments__item">
+                                <div class="comments__header">
+                                        <img class="comments__avatar" src="http://placehold.it/30" alt="">
+                                        <div class="comments__autor">
+                                        <div class="comments__name">Дмитрий Валак</div>
+                                        <time class="comments__pubdate" datetime="2021-08-10 12:34">1 неделю назад</time>
+                                    </div>
+                                </div>
+                                    <div class="comments__text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere obcaecati provident ex. Incidunt facere perspiciatis asperiores fuga praesentium dolor totam, culpa cupiditate ab saepe eaque, consequatur eligendi? Officia vel ab reiciendis numquam voluptatum quia aperiam debitis molestiae quae ipsam fuga similique, dolores reprehenderit. Unde ut ipsam cumque, obcaecati odio mollitia.
+                                    </div>
+                                    <button class="comments__reply" type="button">ответить</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            
                 </div>
                 </div><!--/.post-content-->
             </article><!--/.post-->
