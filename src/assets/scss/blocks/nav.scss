@@ -34,6 +34,7 @@
   &.has-subnav {
     position: relative;
     padding-right: 3.5rem;
+    cursor: pointer;
     &::after {
       content: "";
       display: block;
